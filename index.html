@@ -1,0 +1,166 @@
+<!--          *****Creating my own personal website based only on html *****          -->
+
+<!DOCTYPE html>                              <!-- Represents the version of HTML -->
+<html lang = "en">
+
+    <head>
+
+        <meta charset = "UTF - 8">
+        <title> Raghav's Personal website </title>
+  
+    </head>
+    
+
+    <body>   
+
+             <!--    *** here i have respresented my bio in a form a table ***     -->
+       
+        <table cellspacing = "25">
+            <tr>
+                <td> <img 
+                     src = "C:\Users\paliw\Downloads\WIN_20221125_15_37_40_Pro-modified.png"
+                     alt = " This is my picture "
+                     width = "200"
+                     height = "200" > </td> 
+                
+                    <td>
+                        <h1> Raghav Paliwal </h1>
+                        <p> A passionate web developer, student at <em> <strong> <a href = "https://jecrcuniversity.edu.in/"> JECRC University </a> </strong> </em> </p>
+                        <p> <strong> contact no : </strong> 7877243265 </p>
+                    </td>
+                   
+            </tr>
+        </table>
+
+           <!-- "Cellspacing" is an attribute in the  table tag , which defines the space between two cells   -->
+
+           <!-- In order to put a simple image on a web page, we use the <img> element. NOTE : the image tag is a self closing tag.
+                 This is a void element, that requires  atleast two attributes to be useful: src and alt.
+                 The "src" attribute contains a URL pointing to the image you want to embed in the page. 
+                 The "alt" attribute contains a textual description of the image, for use in situations where the image cannot be seen/displayed or takes a long time to render.
+                 We can also use the "height" and the "widht" attribute to adjust the dimensions of the image (but these both are  optional atttributes)   -->
+
+           <!--  <p> stands for paragraph , which used to define a block of text as a paragraph   -->
+           <!--  both <i> and <em> can be used to italices the text , but i only styles the text but em styles and emphasies the text also so always use em insted of i  -->
+           <!--  the same are the bold <b> and the strong <strong> , <b> tag corrospondes to the <i> tag and <strong> corrospondes to the <em> tag   -->
+           
+           <!--  <h1> Raghav Paliwal </h1>
+              <p> A passionate web developer, student at <em> <strong> <a href = "https://jecrcuniversity.edu.in/"> JECRC University </a> </strong> </em> </p>
+              <p> <strong>Contact no :</strong> 7877243265 </p>     -->
+        
+        <hr size = "2" noshade>
+        
+        <h3> Books I have read </h3> 
+
+        <ul>
+            <li> <a href = "https://www.amazon.com/Unlimited-Power-Science-Personal-Achievement/dp/0684845776"> The unlimited power </a> </li>
+            <li> <a href = "https://jamesclear.com/atomic-habits"> Atomic Habits </a> </li>
+            <li> <a href = "https://www.samuelthomasdavies.com/book-summaries/self-help/how-to-win-friends-and-influence-people/"> How to win friends and influnce people </a></li>
+        </ul>
+
+        <h3> My Hobbies </h3>
+
+        <ol>
+            <li> coding </li>
+            <li> travelling </li>
+            <li> Playing <a href = "https://www.britannica.com/sports/volleyball"> Volleyball </a> , <a href = "https://www.icc-cricket.com/homepage"> Cricket </a> and <a href = "https://www.prokabaddi.com/"> Kabbadi</a> </li>
+            
+        </ol>
+             
+             <!-- above we have seen ordered <ol> and unordered lists <ul> and how they work .
+             <li> list item that must be included in both if you want to make a list wheather it's an ordered or an unordered list  -->
+    
+             <!-- the anchor tag <a> is used to convert a text into a hyperlink text which on clicking on it will take you to an another website ,
+                  href used with <a> in wich paste the path of the website/image/video we want our hyperlink text to refer , and between the <a> and </a> tag we write the text of the hyperlink -->
+    
+        <hr noshade>
+                  
+        <h3> Study Experience </h3>
+
+        <!-- 
+              *** Ex. of a basic table (down) ***   
+        
+        <table>
+            <tr> 
+                <td> 2008 - 2010 </td>
+                <td> Harita internatioanl school </td>
+            </tr>
+
+            <tr>
+                <td> 2010 - 2022 </td>
+                <td> St. Paul's School </td>
+            </tr>
+
+            <tr>
+                <td> 2022 - </td>
+                <td> JECRC University</td>
+            </tr>
+       
+        </table>
+        
+        --> 
+           
+        <!--   *** Ex. of a nested table ***    -->
+        <table cellspacing = "10">
+            <thead>
+                <tr>
+                    <th> Dates</th>
+                    <th> Name of instution </th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr> 
+                    <td> 2008 - 2010</td>
+                    <td> Harita international school </td>
+                </tr>
+                <tr>
+                    <td> 2010 - 2022 </td>
+                    <td> St. Paul's School </td>
+                </tr>
+                <tr>
+                    <td> 2022 - </td>
+                    <td> JECRC University </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+             
+            </tfoot>
+
+        </table>
+        
+        <!--   The <table> tag is used to present HTML elements in a tabular format , it's not a self closing tag .
+               In a table we can have table head tag <thead> , table body tag <tbody> and table foot tag <tfoot> to make it more presentable and neat .
+               The row in <thead> is by defualt displayed in bold , in <thead> we need to declare a to declare a table row <tr> so browser forms a a row in a table ,
+               and then in a <tr> we need to declare a table head element <th> if we want to make a cell in a table head (otherwise we can declare a table data element<td> insted of <th> if we are working in a any other tag then <thead> )
+               In <tbody> we have to decalre first a <tr> to make a row than a <td> to make a cel in a table row and close them all after working in them.
+               We can also use <tfoot> tag if we want to make a table footer and first decalre a <tr> and then decalre a <td> in it to make a cell in the row .     -->
+        
+       
+        <h3> My skills </h3>
+        
+        <table cellspacing = "10">
+            <tr>
+                <td>communicaton skills </td> 
+                <td> ⭐⭐⭐⭐⭐</td>
+                <td> spoken english </td>
+                <td> ⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td> Web development </td>
+                <td> ⭐⭐⭐⭐⭐</td>
+                <td> c++ language </td>
+                <td> ⭐⭐⭐</td>
+            </tr>
+        </table>
+           
+        <hr noshade>
+
+        <h3> <a href = "D:\web development\HTML\html - personal website\contact_me.html"> <strong> contact me </strong> </a></h3>
+
+    </body>
+
+
+
+</html>
